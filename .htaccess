@@ -1,0 +1,20 @@
+<IfModule mod_expires.c>
+ExpiresActive On
+
+# Images
+ExpiresByType image/jpg "access 1 year"
+ExpiresByType image/jpeg "access 1 year"
+ExpiresByType image/png "access 1 year"
+ExpiresByType image/gif "access 1 year"
+ExpiresByType image/webp "access 1 year"
+
+# CSS, JS
+ExpiresByType text/css "access 1 month"
+ExpiresByType application/javascript "access 1 month"
+
+# Fonts
+ExpiresByType font/woff2 "access 1 year"
+
+# HTML
+ExpiresByType text/html "access 1 hour"
+</IfModule>

@@ -1,0 +1,17 @@
+User-agent: *
+Allow: /
+
+# Block sensitive/payment pages (if exist)
+Disallow: /payment
+Disallow: /lric-pay
+Disallow: /success
+Disallow: /checkout
+
+# Allow important pages
+Allow: /contact
+Allow: /about
+Allow: /membership
+Allow: /lric.internalion
+
+# Sitemap
+Sitemap: https://leroyalsinter.netlify.app/sitemap.xml

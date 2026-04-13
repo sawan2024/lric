@@ -1,0 +1,30 @@
+# LLMs.txt for Le Royals International Club
+
+User-agent: *
+Allow: /
+
+# Allow public pages
+Allow: /
+Allow: /about
+Allow: /contact
+Allow: /membership
+Allow: /lric.internalion
+
+# Disallow sensitive/payment pages
+Disallow: /payment
+Disallow: /lric-pay
+Disallow: /checkout
+Disallow: /success
+
+# Disallow personal data or private content
+Disallow: /admin
+Disallow: /user
+Disallow: /private
+
+# Policy
+Usage: Allow summarization, indexing, and linking of public content.
+Attribution: Required when content is used externally.
+Training: Allowed only on public, non-sensitive content.
+
+# Contact
+Contact: https://leroyalsinter.netlify.app/contact
